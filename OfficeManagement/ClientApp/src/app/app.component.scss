@@ -1,0 +1,27 @@
+@import '../variables';
+
+.custom-header-Top-padding
+{
+    margin-top: 53pt;
+}
+
+
+.navbar-brand img, #help .navbar-brand img {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+}
+#footer
+{
+    margin-top: 10px;
+}
+dd{
+    color:#18bc9c;
+}
+dd span
+{
+    color:black;
+}
+#footer span {
+    color: #18bc9c;
+}

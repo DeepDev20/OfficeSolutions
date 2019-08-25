@@ -1,0 +1,48 @@
+<div>
+    <form>
+        <legend>Cash Flow Details</legend>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Cash Description</label>
+          <input type="email" class="form-control" id="expenseDescription" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleSelect1">Cash Flow Direction</label>
+            <select class="form-control" id="cashFlowDirection">
+              <option>Select  Cash Direction</option>
+              <option>Cash In</option>
+              <option>Cash Out</option>
+            </select>
+          </div>
+          <div class="form-group">
+              <label for="exampleInputEmail1">Cash</label>
+              <input type="email" class="form-control" id="cash" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+      <button type="submit" class="btn btn-primary bg-dark">Submit</button>
+    </form>
+    </div>
+    <div class="p-3">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cash Description</th>
+                <th scope="col">Cash Flow Direction</th>
+                <th scope="col">Cash in Rupees</th>
+                <th scope="col">Created Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <th>1</th>
+                <td> travelling expense  </td>
+                <td>Cash In</td>
+                <td>230000</td>
+                <td>20/07/2019</td>
+                <td>Edit | Delete</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
